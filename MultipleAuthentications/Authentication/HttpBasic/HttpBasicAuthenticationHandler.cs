@@ -25,7 +25,7 @@ namespace MultipleAuthenticatons.Authentication.HttpBasic
         /// <summary>
         /// Used in HTTP Basic authentication case of failed authentication in <see cref="HeaderNames.WWWAuthenticate"/> header in <see cref="HttpResponse"/>
         /// </summary>
-        private const string Realm = "Tempus RSD";
+        private const string Realm = "My realm";
 
         public HttpBasicAuthenticationHandler(
            IOptionsMonitor<AuthenticationSchemeOptions> options,
