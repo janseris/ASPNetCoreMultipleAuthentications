@@ -9,7 +9,7 @@
     }
   },
   "profiles": {
-    "Tempus.RSD.RESTAPI": {
+    "MultipleAuthentications": {
       "commandName": "Project",
       "dotnetRunMessages": true,
       "launchBrowser": true,
